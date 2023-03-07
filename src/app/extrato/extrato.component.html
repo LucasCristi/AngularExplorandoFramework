@@ -1,0 +1,14 @@
+<table class="tabela-extrato">
+  <thead class="tabela-cabecalho">
+    <th>Data</th>
+    <th>Valor</th>
+    <th>Destino</th>
+  </thead>
+  <tbody class="tabela-infos">
+    <tr *ngFor="let transferencia of transferencias">
+      <td class="tabela-infos">{{ transferencia.data | date: 'short' }}</td>
+      <td class="tabela-infos">{{ transferencia.valor | currency }}</td>
+      <td class="tabela-infos">{{ transferencia.destino }}</td>
+    </tr>
+  </tbody>
+</table>
