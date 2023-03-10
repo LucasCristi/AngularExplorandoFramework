@@ -4,7 +4,7 @@
     <th>Valor</th>
     <th>Destino</th>
   </thead>
-  <tbody class="tabela-infos">
+  <tbody *ngIf="transferencias?.length > 0; else listaVazia" class="tabela-infos"  >
     <tr *ngFor="let transferencia of transferencias">
       <td class="tabela-infos">{{ transferencia.data | date: 'short' }}</td>
       <td class="tabela-infos">{{ transferencia.valor | currency }}</td>
@@ -12,3 +12,9 @@
     </tr>
   </tbody>
 </table>
+<ng-template  #listaVazia>
+  <div class="lista-vazia">
+
+    <p> Não há movimentações.</p>
+  </div>
+</ng-template>
