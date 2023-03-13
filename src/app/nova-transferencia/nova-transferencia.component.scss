@@ -1,5 +1,5 @@
 .container {
-    background-color: #353c5e;
+    background-color: #364040;
     border-radius: 1rem;
     box-shadow: 2px 2px 10px #000;
     display: flex;
@@ -8,6 +8,8 @@
     width: 20rem;
     color: #fff;
     padding: 2rem;
+    border: .2rem solid #000;
+    margin-top: 1rem;
 }
 
 .formulario{
@@ -21,22 +23,31 @@
 }
 
 .div-form input {
-    text-align: center;
-    border-radius: .5rem;
+    text-align: left;
+    border-radius: .2rem;
+    background-color: #000;
+    color: #fff;
+    padding: .2rem;
 }
 
 .transf {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: .5rem;
     margin-top: 2rem;
-    border-radius: 1rem;
+    border-radius: .2rem;
     border: none;
     transition: 1s;
+    background-color: #000;
+    font-size: 1rem;
+    color: #fff;
+
 }
 
 .transf:hover{
     background-color: #000;
-    color: #0dfeae;
+    color: aqua;
     cursor: pointer;
-    letter-spacing: 2px;
+}
+
+h2{
+    margin-bottom: 2rem;
 }

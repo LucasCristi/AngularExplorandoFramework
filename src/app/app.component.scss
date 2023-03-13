@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    padding: 1rem;
+    background-color: #2f2f2f;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 1.2s;
+    background-color: #364040;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: .1rem solid #000;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.ativo{
+    display: none;
+}

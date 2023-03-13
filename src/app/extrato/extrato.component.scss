@@ -1,5 +1,5 @@
 .tabela-extrato{
-    background-color: #353c5e;
+    background-color: #364040;
     color: #fff;
     width: 30rem;   
     margin: 1rem auto;
@@ -8,6 +8,7 @@
     text-transform: uppercase;
     letter-spacing: .1rem;
     box-shadow: 1px 1px 10px #000;
+    border: .2rem solid #000;
 }
 
 
@@ -20,4 +21,15 @@
 .lista-vazia {
     display: flex;
     justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    background-color: #364040;
+    width: 20%;
+    margin: 1rem auto;
+    padding: .2rem;
+    border-radius: .4rem;
+    border: .1rem solid #000;
 }
